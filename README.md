@@ -1,13 +1,31 @@
 # Fixedsys Excelsior font with programming ligatures
 
+## Original copyright
 Created by Darien Valentine
 
 [Font website](http://www.fixedsysexcelsior.com)
 
+## It looks like this
 <img src="./images/sample.png" />
 
+## Where to get the result without compiling
 The compiled TTF binary font is on the Releases page.
 
+## Rationale
+I was always jealous for folks using [Fira Code](https://github.com/tonsky/FiraCode), 
+[Hasklig](https://github.com/i-tu/Hasklig) or [Monoid](https://github.com/larsenwork/monoid) 
+fonts, but my problem is that I have a hard time reading (not even mentioning writing) 
+a computer program in anything but 8x16 font. I probably spent too much time with older
+computers. So after fighting and losing an uphill battle with Glyph2, Fontlab and Fontforge
+I discovered [TTX](https://github.com/behdad/fonttools) and was able to finally stop being jealous. 
+
+This current release has almost everything I use regularly, besides `<$>` and 
+`<*>` which I will add soon. I'm also thinking about doing ligatures for 
+`{-` and `-}`. Other than that feel free to request in the issues. PRs are of course 
+more than welcome. I hope I'm not the only crazy guy on the internet using 8x16
+font for consoles and text editing. 
+
+## History
 This font is a simulated 8x16 bitmap font from old Windows and DOS. It was 
 truly monospaced and really bitmapped and initially contained only Western ASCII
 charset. 
@@ -18,6 +36,7 @@ off. The size is 16px or 12pt.
 
 He also added a lot of foreign characters and made the font Unicode. 
 
+## Tech trivia
 The font is distributed in binary TTF format and I decompiled it with 
 [TTX](https://github.com/behdad/fonttools), added a few symbols inspired by 
 [Fira Code](https://github.com/tonsky/FiraCode) and created necessary ligatures.
