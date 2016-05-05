@@ -4,6 +4,8 @@ Created by Darien Valentine
 
 [Font website](http://www.fixedsysexcelsior.com)
 
+<img src="./images/sample.png" />
+
 This font is a simulated 8x16 bitmap font from old Windows and DOS. It was 
 truly monospaced and really bitmapped and initially contained only Western ASCII
 charset. 
