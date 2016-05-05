@@ -6,6 +6,8 @@ Created by Darien Valentine
 
 <img src="./images/sample.png" />
 
+The compiled TTF binary font is on the Releases page.
+
 This font is a simulated 8x16 bitmap font from old Windows and DOS. It was 
 truly monospaced and really bitmapped and initially contained only Western ASCII
 charset. 
