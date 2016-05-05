@@ -28,7 +28,7 @@ in good old days, you know.
 
 The supported programming ligatures are listed in the `ligatures.txt` file.
 
-To create a TTF file from TTX XML just run `ttx -f FSEX301.ttx` 
+To create a TTF file from TTX XML just run `ttx -f FSEX.ttx` 
 (`-f` means overwrite) or use OS X Makefile to also copy to the user Fonts
 folder and update font cache.
 
