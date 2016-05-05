@@ -22,7 +22,7 @@ To design the symbols I used quad lined paper, pencil and rubber eraser. Like
 in good old days, you know. 
 <img src="./images/IMG_3506.jpg" />
 
-The supported programming ligatures are lised in the `ligatures.txt` file.
+The supported programming ligatures are listed in the `ligatures.txt` file.
 
 To create a TTF file from TTX XML just run `ttx -f FSEX301.ttx` 
 (`-f` means overwrite) or use OS X Makefile to also copy to the user Fonts
