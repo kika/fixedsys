@@ -19,9 +19,7 @@ a computer program in anything but 8x16 font. I probably spent too much time wit
 computers. So after fighting and losing an uphill battle with Glyph2, Fontlab and Fontforge
 I discovered [TTX](https://github.com/behdad/fonttools) and was able to finally stop being jealous. 
 
-This current release has almost everything I use regularly, besides `<$>` and 
-`<*>` which I will add soon. I'm also thinking about doing ligatures for 
-`{-` and `-}`. Other than that feel free to request in the issues. PRs are of course 
+This current release has almost everything I use regularly. Feel free to request in the issues. PRs are of course 
 more than welcome. I hope I'm not the only crazy guy on the internet using 8x16
 font for consoles and text editing. 
 
