@@ -61,5 +61,6 @@ set guifont=Fixedsys\ Excelsior:h16
 set noanti 
 set macligatures
 ```
-
+## ToDo
+<| |> <* *> <$ $>
 
