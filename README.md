@@ -60,5 +60,5 @@ set noanti
 set macligatures
 ```
 ## ToDo
-<| |> <* *> <$ $>
+<* *> <$ $>
 
