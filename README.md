@@ -49,6 +49,8 @@ To create a TTF file from TTX XML just run `ttx -f FSEX.ttx`
 (`-f` means overwrite) or use OS X Makefile to also copy to the user Fonts
 folder and update font cache.
 
+## Supported software (incomplete list, send updates please)
+
 I only tested in MacVim so far (this is the only editor I use). Comments and bug
 reports welcome. MacVim should be quite recent for ligatures to work.
 
@@ -59,6 +61,14 @@ set guifont=Fixedsys\ Excelsior:h16
 set noanti 
 set macligatures
 ```
+Courtesy of @ForNeVeR:
+
+- Windows + IDEA (Oracle JDK): renders ligatures, but have problems rendering latin `A` letter (it occupies no space in text and gets composed with a next character). There's a warning in IDEA interface telling about incompatibilities of Oracle JDK and fonts with ligatures.
+- Windows + IDEA (JetBrains JDK): no problems noticed.
+- Windows + VS Code: no problems noticed.
+- Windows + Visual Studio 2015: works mostly okay, but `->` ligature doesn't work. That's a [known problem of WPF text renderer](https://github.com/tonsky/FiraCode/issues/259#issuecomment-243422144).
+- Windows + ConEmu: no ligatures at all. Powerline stuff works okay though, so font is usable even without ligatures. I'd recommend to set font cell width manually to 8 (otherwise it'll have problems determining proper places for line wrapping and rendering Far Manager UI): **Settings** → **Main** → **Main console font** group → select **Cell: 8** from the selector.
+
 ## ToDo
 <* *> <$ $>
 
