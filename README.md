@@ -65,7 +65,12 @@ Courtesy of @ForNeVeR:
 
 - Windows + IDEA (Oracle JDK): renders ligatures, but have problems rendering latin `A` letter (it occupies no space in text and gets composed with a next character). There's a warning in IDEA interface telling about incompatibilities of Oracle JDK and fonts with ligatures.
 - Windows + IDEA (JetBrains JDK): no problems noticed.
-- Windows + VS Code: no problems noticed.
+- Windows + VS Code:
+  ```json
+    "editor.fontFamily": "Fixedsys Excelsior",
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true
+    ```
 - Windows + Visual Studio 2015: works mostly okay, but `->` ligature doesn't work. That's a [known problem of WPF text renderer](https://github.com/tonsky/FiraCode/issues/259#issuecomment-243422144).
 - Windows + ConEmu: no ligatures at all. Powerline stuff works okay though, so font is usable even without ligatures. I'd recommend to set font cell width manually to 8 (otherwise it'll have problems determining proper places for line wrapping and rendering Far Manager UI): **Settings** → **Main** → **Main console font** group → select **Cell: 8** from the selector.
 
