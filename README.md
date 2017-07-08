@@ -61,7 +61,7 @@ set guifont=Fixedsys\ Excelsior:h16
 set noanti 
 set macligatures
 ```
-Courtesy of @ForNeVeR:
+Courtesy of [@ForNeVeR](https://github.com/ForNeVeR):
 
 - Windows + IDEA (Oracle JDK): renders ligatures, but have problems rendering latin `A` letter (it occupies no space in text and gets composed with a next character). There's a warning in IDEA interface telling about incompatibilities of Oracle JDK and fonts with ligatures.
 - Windows + IDEA (JetBrains JDK): no problems noticed.
@@ -75,6 +75,7 @@ Courtesy of @ForNeVeR:
 - Windows + ConEmu: no ligatures at all. Powerline stuff works okay though, so font is usable even without ligatures. I'd recommend to set font cell width manually to 8 (otherwise it'll have problems determining proper places for line wrapping and rendering Far Manager UI): **Settings** → **Main** → **Main console font** group → select **Cell: 8** from the selector.
 
 ### Emacs
+Courtesy of [@adrianparvino](https://github.com/adrianparvino)
 Requires you to move the U+10001 PUA block to the first PUA block
 
 In this example, U+10001 was moved to U+efb0.
