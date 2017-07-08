@@ -76,6 +76,7 @@ Courtesy of [@ForNeVeR](https://github.com/ForNeVeR):
 
 ### Emacs
 Courtesy of [@adrianparvino](https://github.com/adrianparvino)
+
 Requires you to move the U+10001 PUA block to the first PUA block
 
 In this example, U+10001 was moved to U+efb0.
