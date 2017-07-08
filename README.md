@@ -74,6 +74,52 @@ Courtesy of @ForNeVeR:
 - Windows + Visual Studio 2015: works mostly okay, but `->` ligature doesn't work. That's a [known problem of WPF text renderer](https://github.com/tonsky/FiraCode/issues/259#issuecomment-243422144).
 - Windows + ConEmu: no ligatures at all. Powerline stuff works okay though, so font is usable even without ligatures. I'd recommend to set font cell width manually to 8 (otherwise it'll have problems determining proper places for line wrapping and rendering Far Manager UI): **Settings** → **Main** → **Main console font** group → select **Cell: 8** from the selector.
 
+### Emacs
+Requires you to move the U+10001 PUA block to the first PUA block
+
+In this example, U+10001 was moved to U+efb0.
+
+Based on https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs
+```
+(set-fontset-font t '(#Xefb0 . #Xefc5) "Fixedsys Excelsior")
+(defconst fixedsys-excelsior-font-lock-keywords-alist
+  (mapcar (lambda (regex-char-pair)
+	    `(,(car regex-char-pair)
+	      (0 (prog1 ()
+		   (compose-region (match-beginning 1)
+				   (match-end 1)
+				   ;; The first argument to concat is a string containing a literal tab
+				   ,(concat "	" (list (decode-char 'ucs (cadr regex-char-pair)))))))))
+	  '(("\\(>>=\\)"        #Xefb0)
+	    ("\\(=<<\\)"        #Xefb1)
+	    ("\\(<\\*>\\)"      #Xefb2)
+	    ("\\(<\\$>\\)"      #Xefb3)
+	    ("\\(::\\)"         #Xefb4)
+	    ("\\(:=\\)"         #Xefb5)
+	    ("\\(<<<\\)"        #Xefb6)
+	    ("\\(>>>\\)"        #Xefb7)
+	    ("\\(<>\\)"         #Xefb8)
+	    ("\\(/=\\)"         #Xefb9)
+	    ("\\({-\\)"         #Xefba)
+	    ("\\(-}\\)"         #Xefbb)
+	    ("\\(<|\\)"         #Xefbc)
+	    ("\\(|>\\)"         #Xefbd)
+	    ("\\(~>\\)"         #Xefbe)
+	    ("\\(<~\\)"         #Xefbf)
+	    ("\\(<~>\\)"        #Xefc0)
+	    ("\\(<^>\\)"        #Xefc1)
+	    ("\\(/\\\\\\)"      #Xefc2)
+	    ("\\(<|>\\)"        #Xefc3)
+	    ("\\(>=>\\)"        #Xefc4)
+	    ("\\(<=<\\)"        #Xefc5))))
+
+
+(defun add-fixedsys-excelsior-symbol-keywords ()
+  (font-lock-add-keywords nil fixedsys-excelsior-font-lock-keywords-alist))
+
+(add-hook 'prog-mode-hook
+          #'add-fixedsys-excelsior-symbol-keywords)
+```
 ## ToDo
 <* *> <$ $>
 
