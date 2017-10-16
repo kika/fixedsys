@@ -81,12 +81,6 @@ Requires you to move the U+10001 PUA block to the first PUA block
 
 In this example, U+10001 was moved to U+efb0.
 
-### Sublime Text 3 (build 3146+)
-Should be defined in the user settings as so:
-```
-	"font_face": "Fixedsys Excelsior"
-```
-
 Based on https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs
 ```
 (set-fontset-font t '(#Xefb0 . #Xefc5) "Fixedsys Excelsior")
@@ -128,5 +122,13 @@ Based on https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs
 (add-hook 'prog-mode-hook
           #'add-fixedsys-excelsior-symbol-keywords)
 ```
+
+
+### Sublime Text 3 (build 3146+)
+Should be defined in the user settings as so:
+```
+	"font_face": "Fixedsys Excelsior"
+```
+
 ## ToDo
 <* *> <$ $>
