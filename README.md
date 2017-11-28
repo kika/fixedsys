@@ -10,6 +10,9 @@ Created by Darien Valentine
 
 ## Where to get the result without compiling
 The compiled TTF binary font is on the Releases page.
+There are two versions provided:
+1. Default has =< and >= ligated into "less or equal" and "greater or equal"
+1. Alt version enables <= (replacing reverse fat arrow) and >= instead (closes #3)
 
 ## Rationale
 I was always jealous for folks using [Fira Code](https://github.com/tonsky/FiraCode),
