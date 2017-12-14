@@ -130,7 +130,9 @@ Based on https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs
 ### Sublime Text 3 (build 3146+)
 Should be defined in the user settings as so:
 ```
-	"font_face": "Fixedsys Excelsior"
+	"font_face": "Fixedsys Excelsior",
+	"font_size": 16,
+	"font_options": ["gray_antialias"]
 ```
 
 ## ToDo
