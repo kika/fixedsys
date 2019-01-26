@@ -57,7 +57,6 @@ folder and update font cache.
 I only tested in MacVim so far (this is the only editor I use). Comments and bug
 reports welcome. MacVim should be quite recent for ligatures to work.
 **Note**: Versions of MacVim above 8.1-146 seem to have a regression where ligatures are not displayed correctly. Use `brew pin` to maintain your MacVim version below this until this is fixed.
-**Note** MacVim 8.1-153 seems to have a fix for this issue.
 
 Add the following to your `.vimrc`:
 
