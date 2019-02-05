@@ -57,6 +57,7 @@ folder and update font cache.
 I only tested in MacVim so far (this is the only editor I use). Comments and bug
 reports welcome. MacVim should be quite recent for ligatures to work.
 **Note**: Versions of MacVim above 8.1-146 seem to have a regression where ligatures are not displayed correctly. Use `brew pin` to maintain your MacVim version below this until this is fixed.
+[Tracking issue and workaround](https://github.com/macvim-dev/macvim/issues/841)
 
 Add the following to your `.vimrc`:
 
@@ -82,6 +83,22 @@ Courtesy of [@ForNeVeR](https://github.com/ForNeVeR):
   "editor.fontSize": 15,
   "editor.fontLigatures": true
   ```
+  **(The following is only for VSCode on MacOS)** For many people this may look ugly because Fixedsys is not designed to be used with antialiasing. Then you may add the following option
+  
+  ```json
+   "workbench.fontAliasing": "none"
+  ```
+  
+  Which will make code editor look nice, but everything else in the VSCode UI - ugly. The solution to that is to modify the CSS for the VSCode itself, edit `/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/out/vs/workbench/workbench.main.css` file (you may want to reformat it) and add the following:
+  
+  ```css
+  .monaco-shell {
+    ...
+    -webkit-font-smoothing: antialiased !important;
+  }
+
+  ```
+  
 - Windows + Visual Studio 2015: works mostly okay, but `->` ligature doesn't work. That's a [known problem of WPF text renderer](https://github.com/tonsky/FiraCode/issues/259#issuecomment-243422144).
 - Windows + ConEmu: no ligatures at all. Powerline stuff works okay though, so font is usable even without ligatures. I'd recommend to set font cell width manually to 8 (otherwise it'll have problems determining proper places for line wrapping and rendering Far Manager UI): **Settings** → **Main** → **Main console font** group → select **Cell: 8** from the selector.
 
