@@ -1,9 +1,11 @@
 # Fixedsys Excelsior font with programming ligatures
 
 ## Original copyright
-Created by Darien Valentine
+Created by Darien Valentine [@bathos](https://github.com/bathos)
 
-[Font website](http://www.fixedsysexcelsior.com)
+[Font website (dead)](http://www.fixedsysexcelsior.com)
+
+If you want to use this font commercially or otherwise check this issue out: https://github.com/kika/fixedsys/issues/21
 
 ## It looks like this
 <img src="./images/sample.png" />
