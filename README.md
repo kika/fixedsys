@@ -5,7 +5,7 @@ Created by Darien Valentine [@bathos](https://github.com/bathos)
 
 [Font website (dead)](http://www.fixedsysexcelsior.com)
 
-If you want to use this font commercially or otherwise check this issue out: https://github.com/kika/fixedsys/issues/21
+If you want to use this font commercially or otherwise check this issue out: [#21](https://github.com/kika/fixedsys/issues/21)
 
 ## It looks like this
 <img src="./images/sample.png" />
