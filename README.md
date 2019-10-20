@@ -16,6 +16,9 @@ There are two versions provided:
 1. Default has =< and >= ligated into "less or equal" and "greater or equal"
 1. Alt version enables <= (replacing reverse fat arrow) and >= instead (closes #3)
 
+### What's up with the ALT version in the releases?
+See [this issue](https://github.com/kika/fixedsys/issues/3)
+
 ## Rationale
 I was always jealous for folks using [Fira Code](https://github.com/tonsky/FiraCode),
 [Hasklig](https://github.com/i-tu/Hasklig) or [Monoid](https://github.com/larsenwork/monoid)
