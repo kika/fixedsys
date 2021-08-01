@@ -1,11 +1,10 @@
 # Fixedsys Excelsior font with programming ligatures
 
-## Original copyright
-Created by Darien Valentine [@bathos](https://github.com/bathos)
+## Distribution terms
 
-[Font website (dead)](http://www.fixedsysexcelsior.com)
+The font was originally authored by Darien Valentine [@bathos](https://github.com/bathos) and provided via a now-defunct site at [fixedsysexcelsior.com](http://www.fixedsysexcelsior.com). This derivative's source code repository and issue tracker can be found at [github.com/kika/fixedsys](https://github.com/kika/fixedsys/).
 
-If you want to use this font commercially or otherwise check this issue out: [#21](https://github.com/kika/fixedsys/issues/21)
+The creator(s) of this content have released it to the public domain. For jurisdictions where this is not permitted, it is released under the terms of the Creative Commons Zero Dedication.
 
 ## It looks like this
 <img src="./images/sample.png" />
