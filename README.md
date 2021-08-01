@@ -1,11 +1,10 @@
 # Fixedsys Excelsior font with programming ligatures
 
-## Original copyright
-Created by Darien Valentine [@bathos](https://github.com/bathos)
+## Distribution terms
 
-[Font website (dead)](http://www.fixedsysexcelsior.com)
+The font was originally authored by Darien Valentine [@bathos](https://github.com/bathos) and provided via a now-defunct site at [fixedsysexcelsior.com](http://www.fixedsysexcelsior.com). This derivative's source code repository and issue tracker can be found at [github.com/kika/fixedsys](https://github.com/kika/fixedsys/).
 
-If you want to use this font commercially or otherwise check this issue out: [#21](https://github.com/kika/fixedsys/issues/21)
+The creator(s) of this content have released it to the public domain. For jurisdictions where this is not permitted, it is released under the terms of the Creative Commons Zero Dedication.
 
 ## It looks like this
 <img src="./images/sample.png" />
@@ -16,14 +15,24 @@ There are two versions provided:
 1. Default has =< and >= ligated into "less or equal" and "greater or equal"
 1. Alt version enables <= (replacing reverse fat arrow) and >= instead (closes #3)
 
-### What's up with the ALT version in the releases?
-See [this issue](https://github.com/kika/fixedsys/issues/3)
+### What is the ALT version in the releases about?
+
+The fonts declare a set of ligatures that replace certain groups of adjacent characters by a combined glyph. The ALT variant has some of the ligature declarations swapped to facilitate code programming, where `<=` is almost always meant to be a less-or-equal operator, and also works for the general case too, based on the presumption that left fat arrows are seldomly used even in scientific texts.
+
+| Input  | Normal variant   | ALT variant      |
+|------- | ---------------- | ---------------- |
+| `<=`   | left fat arrow   | less-or-equal    |
+| `<==`  | left fat arrow   | left fat arrow   |
+| `=>`   | right fat arrow  | right fat arrow  |
+| `=<`   | less-or-equal    | (no ligature)    |
+| `>=`   | greater-or-equal | greater-or-equal |
+| `>==`  | (no ligature)    | (no ligature)    |
 
 ## Rationale
-I was always jealous for folks using [Fira Code](https://github.com/tonsky/FiraCode),
+I (Kirill Pertsev) was always jealous for folks using [Fira Code](https://github.com/tonsky/FiraCode),
 [Hasklig](https://github.com/i-tu/Hasklig) or [Monoid](https://github.com/larsenwork/monoid)
 fonts, but my problem is that I have a hard time reading (not even mentioning writing)
-a computer program in anything but 8x16 font. I probably spent too much time with older
+a computer program in anything but an 8x16 font. I probably spent too much time with older
 computers. So after fighting and losing an uphill battle with Glyph2, Fontlab and Fontforge
 I discovered [TTX](https://github.com/behdad/fonttools) and was able to finally stop being jealous.
 
@@ -33,12 +42,13 @@ font for consoles and text editing.
 
 ## History
 This font is a simulated 8x16 bitmap font from old Windows and DOS. It was
-truly monospaced and really bitmapped and initially contained only Western ASCII
-charset.
+truly monospaced and really bitmapped and initially contained only
+windows-1250, windows-1251, a subset of windows-1252, windows-1253
+and windows-1254.
 Darien simulated the bitmap with TrueType outlines by building the font from
 10x10 squares ("pixels") and then joining the squares together. As such, this font
 only works as intended in only one size and usually with antialiasing switched
-off. The size is 16px or 12pt.
+off. The size is 16px, or 12pt@96dpi.
 
 He also added a lot of foreign characters and made the font Unicode.
 
@@ -53,9 +63,9 @@ in good old days, you know.
 
 The supported programming ligatures are listed in the `ligatures.txt` file.
 
-To create a TTF file from TTX XML just run `ttx -f FSEX.ttx`
-(`-f` means overwrite) or use OS X Makefile to also copy to the user Fonts
-folder and update font cache.
+To create a TTF file from TTX XML, just run `ttx -f FSEX.ttx`
+(`-f` means overwrite) or use the OS X Makefile to also copy it to the user Fonts
+folder and update the font cache.
 
 ## Supported software (incomplete list, send updates please)
 
