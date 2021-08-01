@@ -15,8 +15,18 @@ There are two versions provided:
 1. Default has =< and >= ligated into "less or equal" and "greater or equal"
 1. Alt version enables <= (replacing reverse fat arrow) and >= instead (closes #3)
 
-### What's up with the ALT version in the releases?
-See [this issue](https://github.com/kika/fixedsys/issues/3)
+### What is the ALT version in the releases about?
+
+The fonts declare a set of ligatures that replace certain groups of adjacent characters by a combined glyph. The ALT variant has some of the ligature declarations swapped to facilitate code programming, where `<=` is almost always meant to be a less-or-equal operator, and also works for the general case too, based on the presumption that left fat arrows are seldomly used even in scientific texts.
+
+| Input  | Normal variant   | ALT variant      |
+|------- | ---------------- | ---------------- |
+| `<=`   | left fat arrow   | less-or-equal    |
+| `<==`  | left fat arrow   | left fat arrow   |
+| `=>`   | right fat arrow  | right fat arrow  |
+| `=<`   | less-or-equal    | (no ligature)    |
+| `>=`   | greater-or-equal | greater-or-equal |
+| `>==`  | (no ligature)    | (no ligature)    |
 
 ## Rationale
 I was always jealous for folks using [Fira Code](https://github.com/tonsky/FiraCode),
