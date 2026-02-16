@@ -33445,32 +33445,32 @@
         </assembly></instructions>
     </TTGlyph>
 
-    <TTGlyph name="asciitilde" xMin="0" yMin="60" xMax="80" yMax="90">
+    <TTGlyph name="asciitilde" xMin="0" yMin="30" xMax="80" yMax="60">
       <contour>
-        <pt x="80" y="70" on="1"/>
-        <pt x="70" y="70" on="1"/>
-        <pt x="70" y="60" on="1"/>
-        <pt x="40" y="60" on="1"/>
-        <pt x="40" y="70" on="1"/>
-        <pt x="30" y="70" on="1"/>
-        <pt x="30" y="80" on="1"/>
-        <pt x="20" y="80" on="1"/>
-        <pt x="20" y="70" on="1"/>
-        <pt x="10" y="70" on="1"/>
+        <pt x="80" y="40" on="1"/>
+        <pt x="70" y="40" on="1"/>
+        <pt x="70" y="30" on="1"/>
+        <pt x="40" y="30" on="1"/>
+        <pt x="40" y="40" on="1"/>
+        <pt x="30" y="40" on="1"/>
+        <pt x="30" y="50" on="1"/>
+        <pt x="20" y="50" on="1"/>
+        <pt x="20" y="40" on="1"/>
+        <pt x="10" y="40" on="1"/>
+        <pt x="10" y="30" on="1"/>
+        <pt x="0" y="30" on="1"/>
+        <pt x="0" y="50" on="1"/>
+        <pt x="10" y="50" on="1"/>
         <pt x="10" y="60" on="1"/>
-        <pt x="0" y="60" on="1"/>
-        <pt x="0" y="80" on="1"/>
-        <pt x="10" y="80" on="1"/>
-        <pt x="10" y="90" on="1"/>
-        <pt x="40" y="90" on="1"/>
-        <pt x="40" y="80" on="1"/>
-        <pt x="50" y="80" on="1"/>
-        <pt x="50" y="70" on="1"/>
-        <pt x="60" y="70" on="1"/>
-        <pt x="60" y="80" on="1"/>
-        <pt x="70" y="80" on="1"/>
-        <pt x="70" y="90" on="1"/>
-        <pt x="80" y="90" on="1"/>
+        <pt x="40" y="60" on="1"/>
+        <pt x="40" y="50" on="1"/>
+        <pt x="50" y="50" on="1"/>
+        <pt x="50" y="40" on="1"/>
+        <pt x="60" y="40" on="1"/>
+        <pt x="60" y="50" on="1"/>
+        <pt x="70" y="50" on="1"/>
+        <pt x="70" y="60" on="1"/>
+        <pt x="80" y="60" on="1"/>
       </contour>
       <instructions><assembly>
         </assembly></instructions>
