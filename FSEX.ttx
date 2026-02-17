@@ -6221,6 +6221,10 @@
     <GlyphID id="6021" name="lessequal.alt"/>
     <GlyphID id="6022" name="greaterequal.alt"/>
     <GlyphID id="6023" name="leftfatlongarrow"/>
+    <GlyphID id="6217" name="uni21B9"/>
+    <GlyphID id="6217" name="uni21EA"/>
+    <GlyphID id="6217" name="uni21E7"/>
+    <GlyphID id="6219" name="u01F512"/>
   </GlyphOrder>
 
   <head>
@@ -12555,6 +12559,10 @@
     <mtx name="lessequal.alt" width="160" lsb="30"/>
     <mtx name="greaterequal.alt" width="160" lsb="30"/>
     <mtx name="leftfatlongarrow" width="240" lsb="10"/>
+    <mtx name="uni21B9" width="80" lsb="0"/>
+    <mtx name="uni21EA" width="80" lsb="0"/>
+    <mtx name="uni21E7" width="80" lsb="0"/>
+    <mtx name="u01F512" width="80" lsb="0"/>
   </hmtx>
 
   <VDMX>
@@ -19269,6 +19277,10 @@
       <map code="0xff5e" name="uniFF5E"/><!-- FULLWIDTH TILDE -->
       <map code="0xfffc" name="uniFFFC"/><!-- OBJECT REPLACEMENT CHARACTER -->
       <map code="0xfffd" name="uniFFFD"/><!-- REPLACEMENT CHARACTER -->
+      <map code="0x21b9" name="uni21B9"/><!-- LEFTWARDS ARROW TO BAR OVER RIGHTWARDS ARROW TO BAR -->
+      <map code="0x21ea" name="uni21EA"/><!-- UPWARDS WHITE ARROW FROM BAR -->
+      <map code="0x21e7" name="uni21E7"/><!-- UPWARDS WHITE ARROW -->
+      <map code="0x1f512" name="u01F512"/><!-- LOCK -->
     </cmap_format_4>
   </cmap>
 
@@ -251835,6 +251847,214 @@
         </assembly></instructions>
     </TTGlyph>
 
+    <TTGlyph name="uni21B9" xMin="0" yMin="20" xMax="80" yMax="130">
+      <contour>
+        <pt x="10" y="80" on="1"/>
+        <pt x="0" y="80" on="1"/>
+        <pt x="0" y="130" on="1"/>
+        <pt x="10" y="130" on="1"/>
+      </contour>
+      <contour>
+        <pt x="40" y="130" on="1"/>
+        <pt x="60" y="130" on="1"/>
+        <pt x="60" y="120" on="1"/>
+        <pt x="40" y="120" on="1"/>
+        <pt x="40" y="110" on="1"/>
+        <pt x="80" y="110" on="1"/>
+        <pt x="80" y="100" on="1"/>
+        <pt x="40" y="100" on="1"/>
+        <pt x="40" y="90" on="1"/>
+        <pt x="30" y="90" on="1"/>
+        <pt x="30" y="100" on="1"/>
+        <pt x="20" y="100" on="1"/>
+        <pt x="20" y="110" on="1"/>
+        <pt x="30" y="110" on="1"/>
+        <pt x="30" y="120" on="1"/>
+        <pt x="40" y="120" on="1"/>
+      </contour>
+      <contour>
+        <pt x="60" y="90" on="1"/>
+        <pt x="60" y="80" on="1"/>
+        <pt x="40" y="80" on="1"/>
+        <pt x="40" y="90" on="1"/>
+      </contour>
+      <contour>
+        <pt x="40" y="70" on="1"/>
+        <pt x="40" y="60" on="1"/>
+        <pt x="20" y="60" on="1"/>
+        <pt x="20" y="70" on="1"/>
+      </contour>
+      <contour>
+        <pt x="80" y="70" on="1"/>
+        <pt x="80" y="20" on="1"/>
+        <pt x="70" y="20" on="1"/>
+        <pt x="70" y="70" on="1"/>
+      </contour>
+      <contour>
+        <pt x="50" y="60" on="1"/>
+        <pt x="50" y="50" on="1"/>
+        <pt x="60" y="50" on="1"/>
+        <pt x="60" y="40" on="1"/>
+        <pt x="50" y="40" on="1"/>
+        <pt x="50" y="30" on="1"/>
+        <pt x="40" y="30" on="1"/>
+        <pt x="40" y="40" on="1"/>
+        <pt x="0" y="40" on="1"/>
+        <pt x="0" y="50" on="1"/>
+        <pt x="40" y="50" on="1"/>
+        <pt x="40" y="60" on="1"/>
+      </contour>
+      <contour>
+        <pt x="40" y="30" on="1"/>
+        <pt x="40" y="20" on="1"/>
+        <pt x="20" y="20" on="1"/>
+        <pt x="20" y="30" on="1"/>
+      </contour>
+      <instructions><assembly>
+        </assembly></instructions>
+    </TTGlyph>
+    <TTGlyph name="uni21EA" xMin="0" yMin="-10" xMax="70" yMax="110">
+      <contour>
+        <pt x="40" y="110" on="1"/>
+        <pt x="40" y="100" on="1"/>
+        <pt x="50" y="100" on="1"/>
+        <pt x="50" y="90" on="1"/>
+        <pt x="60" y="90" on="1"/>
+        <pt x="60" y="80" on="1"/>
+        <pt x="70" y="80" on="1"/>
+        <pt x="70" y="60" on="1"/>
+        <pt x="60" y="60" on="1"/>
+        <pt x="60" y="70" on="1"/>
+        <pt x="50" y="70" on="1"/>
+        <pt x="50" y="30" on="1"/>
+        <pt x="20" y="30" on="1"/>
+        <pt x="20" y="70" on="1"/>
+        <pt x="10" y="70" on="1"/>
+        <pt x="10" y="60" on="1"/>
+        <pt x="0" y="60" on="1"/>
+        <pt x="0" y="80" on="1"/>
+        <pt x="10" y="80" on="1"/>
+        <pt x="10" y="90" on="1"/>
+        <pt x="20" y="90" on="1"/>
+        <pt x="20" y="100" on="1"/>
+        <pt x="30" y="100" on="1"/>
+        <pt x="30" y="110" on="1"/>
+      </contour>
+      <contour>
+        <pt x="30" y="90" on="1"/>
+        <pt x="30" y="40" on="1"/>
+        <pt x="40" y="40" on="1"/>
+        <pt x="40" y="90" on="1"/>
+      </contour>
+      <contour>
+        <pt x="50" y="20" on="1"/>
+        <pt x="50" y="-10" on="1"/>
+        <pt x="20" y="-10" on="1"/>
+        <pt x="20" y="20" on="1"/>
+      </contour>
+      <contour>
+        <pt x="30" y="10" on="1"/>
+        <pt x="30" y="0" on="1"/>
+        <pt x="40" y="0" on="1"/>
+        <pt x="40" y="10" on="1"/>
+      </contour>
+      <instructions><assembly>
+        </assembly></instructions>
+    </TTGlyph>
+    <TTGlyph name="uni21E7" xMin="0" yMin="0" xMax="70" yMax="100">
+      <contour>
+        <pt x="40" y="100" on="1"/>
+        <pt x="40" y="90" on="1"/>
+        <pt x="50" y="90" on="1"/>
+        <pt x="50" y="80" on="1"/>
+        <pt x="60" y="80" on="1"/>
+        <pt x="60" y="70" on="1"/>
+        <pt x="70" y="70" on="1"/>
+        <pt x="70" y="50" on="1"/>
+        <pt x="60" y="50" on="1"/>
+        <pt x="60" y="60" on="1"/>
+        <pt x="50" y="60" on="1"/>
+        <pt x="50" y="0" on="1"/>
+        <pt x="20" y="0" on="1"/>
+        <pt x="20" y="60" on="1"/>
+        <pt x="10" y="60" on="1"/>
+        <pt x="10" y="50" on="1"/>
+        <pt x="0" y="50" on="1"/>
+        <pt x="0" y="70" on="1"/>
+        <pt x="10" y="70" on="1"/>
+        <pt x="10" y="80" on="1"/>
+        <pt x="20" y="80" on="1"/>
+        <pt x="20" y="90" on="1"/>
+        <pt x="30" y="90" on="1"/>
+        <pt x="30" y="100" on="1"/>
+      </contour>
+      <contour>
+        <pt x="30" y="80" on="1"/>
+        <pt x="30" y="10" on="1"/>
+        <pt x="40" y="10" on="1"/>
+        <pt x="40" y="80" on="1"/>
+      </contour>
+      <instructions><assembly>
+        </assembly></instructions>
+    </TTGlyph>
+    <TTGlyph name="u01F512" xMin="0" yMin="0" xMax="80" yMax="130">
+      <contour>
+        <pt x="30" y="130" on="1"/>
+        <pt x="50" y="130" on="1"/>
+        <pt x="50" y="120" on="1"/>
+        <pt x="30" y="120" on="1"/>
+        <pt x="30" y="110" on="1"/>
+        <pt x="20" y="110" on="1"/>
+        <pt x="20" y="120" on="1"/>
+        <pt x="30" y="120" on="1"/>
+      </contour>
+      <contour>
+        <pt x="60" y="120" on="1"/>
+        <pt x="60" y="110" on="1"/>
+        <pt x="50" y="110" on="1"/>
+        <pt x="50" y="120" on="1"/>
+      </contour>
+      <contour>
+        <pt x="20" y="110" on="1"/>
+        <pt x="20" y="90" on="1"/>
+        <pt x="10" y="90" on="1"/>
+        <pt x="10" y="110" on="1"/>
+      </contour>
+      <contour>
+        <pt x="70" y="110" on="1"/>
+        <pt x="70" y="90" on="1"/>
+        <pt x="60" y="90" on="1"/>
+        <pt x="60" y="110" on="1"/>
+      </contour>
+      <contour>
+        <pt x="10" y="90" on="1"/>
+        <pt x="10" y="80" on="1"/>
+        <pt x="70" y="80" on="1"/>
+        <pt x="70" y="90" on="1"/>
+        <pt x="80" y="90" on="1"/>
+        <pt x="80" y="0" on="1"/>
+        <pt x="0" y="0" on="1"/>
+        <pt x="0" y="90" on="1"/>
+      </contour>
+      <contour>
+        <pt x="10" y="70" on="1"/>
+        <pt x="10" y="10" on="1"/>
+        <pt x="70" y="10" on="1"/>
+        <pt x="70" y="70" on="1"/>
+      </contour>
+      <contour>
+        <pt x="50" y="60" on="1"/>
+        <pt x="50" y="20" on="1"/>
+        <pt x="40" y="20" on="1"/>
+        <pt x="40" y="40" on="1"/>
+        <pt x="30" y="40" on="1"/>
+        <pt x="30" y="50" on="1"/>
+        <pt x="40" y="50" on="1"/>
+        <pt x="40" y="60" on="1"/>
+      </contour>
+      <instructions><assembly>
+        </assembly></instructions>
+    </TTGlyph>
   </glyf>
 
   <name>
