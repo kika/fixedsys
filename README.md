@@ -1,3 +1,5 @@
+<img width="830" height="210" alt="FSEX banner" src="https://github.com/user-attachments/assets/74766edc-7194-4ad8-be20-a1c95e17e7eb" />
+
 # Fixedsys Excelsior font with programming ligatures
 
 ## Distribution terms
@@ -7,7 +9,8 @@ The font was originally authored by Darien Valentine [@bathos](https://github.co
 The creator(s) of this content have released it to the public domain. For jurisdictions where this is not permitted, it is released under the terms of the Creative Commons Zero Dedication.
 
 ## It looks like this
-<img src="./images/sample.png" />
+<img width="830" height="1205" alt="Artboardfinal" src="https://github.com/user-attachments/assets/98a471ba-1f01-4ea4-b2c4-a9ba7d077f43" />
+
 
 ## Where to get the result without compiling
 The compiled TTF binary font is on the Releases page.
