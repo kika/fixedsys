@@ -60,6 +60,8 @@ The font is distributed in binary TTF format and I decompiled it with
 To design the symbols I used quad lined paper, pencil and rubber eraser. Like
 in good old days, you know.
 <img src="./images/IMG_3506.jpg" />
+Update from the AI age (2026): the folder `fsexedit` contains a simple vibecoded slop in Rust
+that allows to edit and create individual glyphs and ligatures.
 
 The supported programming ligatures are listed in the `ligatures.txt` file.
 
