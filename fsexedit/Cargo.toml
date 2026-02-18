@@ -1,0 +1,11 @@
+[package]
+name = "fsexedit"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+quick-xml = "0.37"
+ratatui = "0.29"
+crossterm = "0.28"
+unicode_names2 = "1.3"
+anyhow = "1.0"
