@@ -1,3 +1,5 @@
+<img src="./images/banner.png" />
+
 # Fixedsys Excelsior font with programming ligatures
 
 ## Distribution terms
@@ -7,7 +9,8 @@ The font was originally authored by Darien Valentine [@bathos](https://github.co
 The creator(s) of this content have released it to the public domain. For jurisdictions where this is not permitted, it is released under the terms of the Creative Commons Zero Dedication.
 
 ## It looks like this
-<img src="./images/sample.png" />
+<img src="./images/fixedsysinfo.png" />
+
 
 ## Where to get the result without compiling
 The compiled TTF binary font is on the Releases page.
